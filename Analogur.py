@@ -7,9 +7,6 @@ screen = pygame.display.set_mode((1000, 1000)) # Laver en skræm med 1000 x 1000
 screen.fill((77, 73, 69)) # Skræm bliver flydt med en selvvalgt farve
 pygame.display.set_caption("En analog ur")
 
-pygame.mixer.music.load('alarm-clock-ticking-6069.mp3')
-pygame.mixer_music.play(100000,0,0)
-
 text_font = pygame.font.SysFont("neonlights", 90, bold=False, italic=True)
 text_num = pygame.font.SysFont('neonlights', 35, bold=False, italic=True)
 
